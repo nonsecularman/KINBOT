@@ -1,20 +1,18 @@
-# Core
-python-dotenv
-GitPython
-telegraph
-youtube-search-python
-yt-dlp
+# Telegram Core
+pyrogram==2.0.106
+tgcrypto==1.2.5
+
+# Voice Call Stable Combo
+py-tgcalls==0.9.7
+ntgcalls==1.2.3
 
 # Database
 motor==3.3.2
 pymongo[srv]==4.6.1
 
-# Telegram Libraries
-pyrogram==2.0.106
-tgcrypto==1.2.5
-
-# Voice Calls
-py-tgcalls==0.9.7
-
-# Async (built-in होता है, remove करो)
-# asyncio ❌ मत डालो
+# Tools
+python-dotenv
+GitPython
+telegraph
+youtube-search-python
+yt-dlp
